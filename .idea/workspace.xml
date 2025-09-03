@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Commit inicial y primeros ejercicios de recursión">
-      <change afterPath="$PROJECT_DIR$/src/Recursión/buscar_palabra_en_matriz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursión/es_palindromo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursión/numero_primo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursión/producto_numero_con_sumas.py" afterDir="false" />
+    <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Más ejercicios de recursión">
+      <change afterPath="$PROJECT_DIR$/src/Recursión/Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursión/Stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/Ej_Letras_repetidas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/buscar_palabra_en_matriz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/es_palindromo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/numero_primo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/producto_numero_con_sumas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/sumatoria_elementos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/sumatoria_lista.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +55,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Ej_1.executor": "Run",
     "Python.Ej_Letras_repetidas.executor": "Run",
+    "Python.Hola.executor": "Run",
+    "Python.Simulacro_parcial.executor": "Run",
+    "Python.Stack_and_Queue.executor": "Run",
     "Python.buscar_palabra_en_matriz.executor": "Run",
     "Python.es_palindromo.executor": "Run",
     "Python.numero_primo.executor": "Run",
+    "Python.permutaciones.executor": "Run",
     "Python.producto_numero_con_sumas.executor": "Run",
     "Python.sumatoria_elementos.executor": "Run",
     "Python.sumatoria_lista.executor": "Run",
+    "Python.trabajando con matrices.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -67,8 +79,8 @@
       <recent name="C:\Users\ManTec\PycharmProjects\Práctica de EDD\src\Recursión" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.buscar_palabra_en_matriz">
-    <configuration name="buscar_palabra_en_matriz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Ej_1">
+    <configuration name="Ej_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Recursión" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Recursión/Ejercicios" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/buscar_palabra_en_matriz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="es_palindromo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Hola" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/es_palindromo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/Hola.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numero_primo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Simulacro_parcial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/numero_primo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/Simulacro_parcial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="producto_numero_con_sumas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/producto_numero_con_sumas.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ManTec\PycharmProjects\Práctica de EDD\src\Recursión\Stack" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sumatoria_elementos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="trabajando con matrices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/sumatoria_elementos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/trabajando con matrices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.buscar_palabra_en_matriz" />
-        <item itemvalue="Python.producto_numero_con_sumas" />
-        <item itemvalue="Python.es_palindromo" />
-        <item itemvalue="Python.numero_primo" />
-        <item itemvalue="Python.sumatoria_elementos" />
+        <item itemvalue="Python.Ej_1" />
+        <item itemvalue="Python.Stack_and_Queue" />
+        <item itemvalue="Python.Simulacro_parcial" />
+        <item itemvalue="Python.trabajando con matrices" />
+        <item itemvalue="Python.Hola" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754112391753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Más ejercicios de recursión">
+      <option name="closed" value="true" />
+      <created>1754199545221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754199545221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +247,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial y primeros ejercicios de recursión" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial y primeros ejercicios de recursión" />
+    <MESSAGE value="Más ejercicios de recursión" />
+    <option name="LAST_COMMIT_MESSAGE" value="Más ejercicios de recursión" />
   </component>
 </project>
