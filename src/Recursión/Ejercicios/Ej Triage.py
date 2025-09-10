@@ -173,7 +173,7 @@ def ciclo_infinito(pacientes,pesos):
                 cola.enqueue((nuevo_nombre,nuevo_puntaje))
             case "listar":
                 pila = Stack()
-                n=int(input("Cuantos quieres listar"))
+                n=int(input("Cuántos quieres listar"))
                 if n > len(cola):
                     print(f"Solo hay {len(cola)} pacientes")
                 else:

@@ -40,29 +40,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Ej Triage.executor": "Run",
-    "Python.Ej_1.executor": "Run",
-    "Python.Ej_Letras_repetidas.executor": "Run",
-    "Python.Hola.executor": "Run",
-    "Python.Simulacro_parcial.executor": "Run",
-    "Python.Stack_and_Queue.executor": "Run",
-    "Python.buscar_palabra_en_matriz.executor": "Run",
-    "Python.es_palindromo.executor": "Run",
-    "Python.numero_primo.executor": "Run",
-    "Python.permutaciones.executor": "Run",
-    "Python.producto_numero_con_sumas.executor": "Run",
-    "Python.sumatoria_elementos.executor": "Run",
-    "Python.sumatoria_lista.executor": "Run",
-    "Python.trabajando con matrices.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Ej Triage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ej_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ej_Letras_repetidas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hola.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Simulacro_parcial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Stack_and_Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buscar_palabra_en_matriz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.es_palindromo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numero_primo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.permutaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.producto_numero_con_sumas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sumatoria_elementos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sumatoria_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trabajando con matrices.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ManTec\PycharmProjects\Práctica de EDD\src\Recursión" />
