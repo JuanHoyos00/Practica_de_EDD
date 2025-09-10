@@ -32,4 +32,4 @@ def sumar(cola, numero):
             cola.enqueue(cola.dequeue())
 
     return cola,x,y
-print(sumar(mi_cola,9))
+print(sumar(mi_cola,5))
