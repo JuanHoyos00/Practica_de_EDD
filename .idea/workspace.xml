@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Ejercicio 03/sep">
-      <change afterPath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej Triage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Ejercicios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756933931965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1757471480945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757471480945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +254,7 @@
     <MESSAGE value="Commit inicial y primeros ejercicios de recursión" />
     <MESSAGE value="Más ejercicios de recursión" />
     <MESSAGE value="Ejercicio 03/sep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 03/sep" />
+    <MESSAGE value="Ejercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios" />
   </component>
 </project>
