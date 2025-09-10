@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Ejercicios" />
+    <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Ejercicios">
+      <change afterPath="$PROJECT_DIR$/src/Pilas Y Colas/PriorityQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej Triage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej Triage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursión/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Stack.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757471480945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1757471568155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757471568155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1757471621698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757471621698</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
