@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/Pilas Y Colas/PriorityQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Exercises/Delete_for_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Exercises/Insert_for_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Exercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/CircularDoublyLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/CircularSinglyLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/DoublyLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/SinglyLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Práctica de EDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Práctica de EDD.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej Triage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej Triage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursión/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursión/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilas Y Colas/Stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej Triage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/Ej Triage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/Ej_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/PriorityQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/PriorityQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/Stack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +50,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JuanHoyos00/Practica_de_EDD.git&quot;,
-    &quot;accountId&quot;: &quot;b8fe875d-b81f-4bd7-83f5-55027e8faaf1&quot;
+    &quot;accountId&quot;: &quot;b0ede34b-fd1f-457d-8f0f-16350d3f6ad6&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -47,36 +61,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Ej Triage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ej_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ej_Letras_repetidas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hola.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Simulacro_parcial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Stack_and_Queue.executor&quot;: &quot;Run&quot;,
-    &quot;Python.buscar_palabra_en_matriz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.es_palindromo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.numero_primo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.permutaciones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.producto_numero_con_sumas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sumatoria_elementos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sumatoria_lista.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trabajando con matrices.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Delete_from SLL.executor": "Run",
+    "Python.Ej Triage.executor": "Run",
+    "Python.Ej_1 (1).executor": "Run",
+    "Python.Ej_1.executor": "Run",
+    "Python.Ej_Letras_repetidas.executor": "Run",
+    "Python.Hola.executor": "Run",
+    "Python.Insert_for_position.executor": "Run",
+    "Python.Simulacro_parcial.executor": "Run",
+    "Python.SinglyLinkedList (1).executor": "Run",
+    "Python.SinglyLinkedList.executor": "Run",
+    "Python.Stack_and_Queue.executor": "Run",
+    "Python.buscar_palabra_en_matriz.executor": "Run",
+    "Python.es_palindromo.executor": "Run",
+    "Python.numero_primo.executor": "Run",
+    "Python.permutaciones.executor": "Run",
+    "Python.producto_numero_con_sumas.executor": "Run",
+    "Python.sumatoria_elementos.executor": "Run",
+    "Python.sumatoria_lista.executor": "Run",
+    "Python.trabajando con matrices.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/Practica_de_EDD/src/Pilas Y Colas/Ejercicios",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\PycharmProjects\Practica_de_EDD\src\Pilas Y Colas\Ejercicios" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Practica_de_EDD\src\Pilas Y Colas" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Practica_de_EDD\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\PycharmProjects\Practica_de_EDD\src\Pilas Y Colas\Implementation" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Practica_de_EDD\src\Linked_List\Excercises" />
       <recent name="C:\Users\ManTec\PycharmProjects\Práctica de EDD\src\Recursión" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ej Triage">
-    <configuration name="Ej Triage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Insert_for_position">
+    <configuration name="Delete_for_value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Recursión/Ejercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Linked_List/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej Triage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Usuario\PycharmProjects\Practica_de_EDD\src\Linked_List\Exercises\Delete_for_value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ej_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ej_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Recursión/Ejercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/Ejercicios/Ej_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/Ej_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Hola" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Insert_for_position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Recursión" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Linked_List/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/Hola.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Linked_List/Exercises/Insert_for_position.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Simulacro_parcial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedList (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Recursión" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Linked_List/Implementation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/Simulacro_parcial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Linked_List/Implementation/SinglyLinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trabajando con matrices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Recursión" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Linked List/Implementation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Recursión/trabajando con matrices.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Linked List/Implementation/SinglyLinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,18 +221,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ej Triage" />
-        <item itemvalue="Python.Ej_1" />
-        <item itemvalue="Python.Simulacro_parcial" />
-        <item itemvalue="Python.trabajando con matrices" />
-        <item itemvalue="Python.Hola" />
+        <item itemvalue="Python.Insert_for_position" />
+        <item itemvalue="Python.Ej_1 (1)" />
+        <item itemvalue="Python.Delete_for_value" />
+        <item itemvalue="Python.SinglyLinkedList (1)" />
+        <item itemvalue="Python.SinglyLinkedList" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
+        <option value="bundled-python-sdk-b3d66beaba9a-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.168" />
       </set>
     </attachedChunks>
   </component>
@@ -210,6 +243,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754107533156</updated>
+      <workItem from="1758822440191" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial y primeros ejercicios de recursión">
       <option name="closed" value="true" />
@@ -261,6 +295,9 @@
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
