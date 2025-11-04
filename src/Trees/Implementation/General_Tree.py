@@ -1,68 +1,80 @@
-from typing import Any, Optional, Union
+from typing import Any, Optional
 
 
 class GeneralNode:
     def __init__(self, value: Any):
         self.value: Any = value
         self.children: list[GeneralNode] = []
+
     def __repr__(self):
-        return f"{self.value}"
+        return f'{self.value}'
 
 class GeneralTree:
-    def  __init__(self):
+    def __init__(self):
         self.root: Optional[GeneralNode] = None
 
-    def search_node(self, value: Any, current: Optional[GeneralNode] = None, flag: bool = True) -> Union[GeneralNode,None,bool]:
+    def __repr__(self) -> str:
+
+        if not self.root:
+            return "🌱 Empty Tree"
+        return self._build_tree_repr(self.root, "", True)
+
+    def _build_tree_repr(self, node: GeneralNode, prefix: str, is_last: bool) -> str:
+        tree_str = prefix + ("└── " if is_last else "├── ") + str(node.value) + "\n"
+        prefix += "    " if is_last else "│   "
+
+        child_count = len(node.children)
+        for i, child in enumerate(node.children):
+            is_last_child = (i == child_count - 1)
+            tree_str += self._build_tree_repr(child, prefix, is_last_child)
+        return tree_str
+
+    def insert(self, parent: Any, value: Any, current: Optional[GeneralNode] = None, flag: bool = True) -> bool:
+        if parent is None:
+            self.root = GeneralNode(value)
+            return True
+
+        if self.root is None:
+            self.root = GeneralNode(parent)
+            self.root.children.append(GeneralNode(value))
+            return True
 
         if flag:
             current = self.root
+            flag = False
 
-        if self.root is None:
-            return False
+        if current.value == parent:
+            current.children.append(GeneralNode(value))
+            return True
 
-        if current is None:
-            return None
+        for i in range(len(current.children)):
+            if self.insert(parent, value, current.children[i], flag):
+                return True
+        return False
 
-        if current.children:
-            for child in current.children:
-                if child.value == value:
-                    return True
+    def delete(self, value: Any, current: Optional[GeneralNode] = None, flag: bool = True) -> bool:
 
-        for index in range(len(current.children)):
-            self.search_node(value,current.children[index], False)
+        if flag:
+            current = self.root
+            flag = False
 
-        if current.value == value:
-            return current
+        for child in current.children:
+            if child.value == value:
+                pos: int = current.children.index(child)
+                current.children.extend(current.children[pos].children)
+                current.children.pop(pos)
+                return True
+
+        for child in current.children:
+            self.delete(value, child, flag)
+
         return False
 
 
-    def add_child(self, node_: GeneralNode, child: Any) -> str:
-        if self.search_node(node_):
-            if isinstance(child,list):
-                for node in child:
-                    node_.children.append(GeneralNode(node))
-            elif isinstance(child,tuple):
-                for node in child:
-                    node_.children.append(GeneralNode(node))
-            else:
-                node_.children.append(GeneralNode(child))
-            return f'¡The node was added successfully.!'
-        elif self.root is None:
-            self.root = GeneralNode(child)
-            return f'¡The node was added successfully.!'
-        else:
-            return f'¡The node does not exist.!'
 
-    def print(self, node=None, prefix="", is_last=True, flag=True):
-        if flag:
-            node = self.root
-        if not node:
-            print("Empty Tree")
-            return
-        connector = "└── " if is_last else "├── "
-        print(prefix + connector + str(node.value))
-        new_prefix = prefix + ("    " if is_last else "│   ")
-        for i, child in enumerate(node.children):
-            is_child_last = i == len(node.children) - 1
-            self.print(child, new_prefix, is_child_last, False)
+
+
+
+
+
 
