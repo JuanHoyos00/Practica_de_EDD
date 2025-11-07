@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="365a2f72-8268-4827-ae2a-7466cba305f7" name="Changes" comment="Ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Exercises/Delete_for_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Exercises/Insert_for_position.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/CircularDoublyLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/CircularSinglyLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/DoublyLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/SinglyLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/Implementation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Práctica de EDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Práctica de EDD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Exercises/Branches_Whit_Unique_Value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Exercises/Delete_Leaves_By_Id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Exercises/Exercise_in_Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Exercises/Get_Tuple_With_Min_Max.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej Triage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/Ej Triage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Ejercicios/Ej_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/Ej_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/PriorityQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/PriorityQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/Queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilas Y Colas/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queues/Implementation/Stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/Exercises/Count_Leaves.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/Exercises/Count_Leaves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/Exercises/Search_String.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/Exercises/Search_String.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +56,7 @@
     "Python.Ej_1 (1).executor": "Run",
     "Python.Ej_1.executor": "Run",
     "Python.Ej_Letras_repetidas.executor": "Run",
+    "Python.Exercise_in_Class.executor": "Run",
     "Python.Hola.executor": "Run",
     "Python.Insert_for_position.executor": "Run",
     "Python.Simulacro_parcial.executor": "Run",
@@ -86,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/Practica_de_EDD/src/Pilas Y Colas/Ejercicios",
+    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/EDD_Practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +96,7 @@
       <recent name="C:\Users\ManTec\PycharmProjects\Práctica de EDD\src\Recursión" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Insert_for_position">
+  <component name="RunManager" selected="Python.Exercise_in_Class">
     <configuration name="Delete_for_value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Práctica de EDD" />
       <option name="ENV_FILES" value="" />
@@ -145,6 +133,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Stacks_and_Queues/Exercises/Ej_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_in_Class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Práctica de EDD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Trees/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Trees/Exercises/Exercise_in_Class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,35 +207,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SinglyLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Práctica de EDD" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Linked List/Implementation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Linked List/Implementation/SinglyLinkedList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Exercise_in_Class" />
         <item itemvalue="Python.Insert_for_position" />
         <item itemvalue="Python.Ej_1 (1)" />
         <item itemvalue="Python.Delete_for_value" />
         <item itemvalue="Python.SinglyLinkedList (1)" />
-        <item itemvalue="Python.SinglyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -316,5 +304,16 @@
     <MESSAGE value="Ejercicio 03/sep" />
     <MESSAGE value="Ejercicios" />
     <option name="LAST_COMMIT_MESSAGE" value="Ejercicios" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Trees/Exercises/Get_Tuple_With_Min_Max.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
